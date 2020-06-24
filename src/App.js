@@ -1,10 +1,16 @@
 import React from 'react';
 import Split from './composition/Split'
+import './App.css';
 
 function App() {
   return (
     <main className='App'>
-      <Split />
+      <Split className='left' flexBasis={2}>
+        Split Left
+      </Split>
+      <Split className='right'>
+        TEST TEXT adfla;kjsf  
+      </Split>
     </main>
   );
 }
