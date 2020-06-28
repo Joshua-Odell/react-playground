@@ -4,7 +4,7 @@ import './App.css';
 import Tooltip from './composition/Tooltip';
 
 const firstTooltip = (
-  <Tooltip color='hotpink' message='tooltip message'>
+  <Tooltip color='hotPink' message='tooltip message'>
    ipsum
   </Tooltip>
 )
@@ -24,7 +24,7 @@ function App() {
         </Tooltip>
       </Split>
       <Split className='right'>
-        TThis is the content for the right Split. Inventore aliquid cupiditate suscipit repellat. Quaerat quis {secondTooltip} quam fuga. Aliquid quo possimus id soluta aspernatur.
+      This is the content for the right Split. Inventore aliquid cupiditate suscipit repellat. Quaerat quis {secondTooltip} quam fuga. Aliquid quo possimus id soluta aspernatur.
       </Split>
     </main>
   );
